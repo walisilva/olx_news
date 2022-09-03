@@ -44,7 +44,7 @@ while(True):
                 ultimo = resultados[1]
                 send = True
 
-        titles = doc.select('#column-main-content > div.h3us20-6.iLWqoT > div > div > div > div.sc-gPWkxV.sc-1ncgzjx-0.flRwHI > div > div.sc-gPWkxV.sc-1a202fr-0.dpPMei > div')  # seletor para os detalhes do resultado da consulta
+        titles = doc.select('#column-main-content > div.h3us20-6.iLWqoT > div > div > div > div.sc-gPWkxV.sc-1ncgzjx-0.uvMTU > div > div.sc-gPWkxV.sc-1a202fr-0.dpPMei > div') # seletor para os detalhes do resultado da consulta - Atualizado em 2022-09-03
         resultados = titles[0].contents
 
         for r in resultados:
